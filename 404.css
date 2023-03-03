@@ -1,0 +1,28 @@
+body  {
+  color: white;
+  margin-top: 3rem;
+}
+
+h1 {
+  color: red;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+a  {
+  display: block;
+  width: 100%;
+  color: black;
+  text-align: center;
+
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    border: 0.25rem solid red;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+}
